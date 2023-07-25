@@ -1,0 +1,84 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  font-size: 6rem;
+  padding-left: 3rem;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  padding: 3rem 4rem;
+  gap: 2rem;
+}
+
+.leader-board {
+  width: 40vw;
+}
+
+.recent-score {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.recent-score h3 {
+  font-size: 2rem;
+}
+
+.refresh {
+  border: 0.3rem solid black;
+  padding: 0.8rem 1rem;
+  box-shadow: 3px 2px 1px black;
+}
+
+.display-score-ul {
+  border: 0.3rem solid black;
+  margin-top: 1rem;
+}
+
+.li-container {
+  list-style: none;
+  padding: 0.5rem 1rem;
+  font-weight: 700;
+  font-family: cursive;
+}
+
+.li-container:nth-child(even) {
+  background-color: rgb(231, 237, 237);
+}
+
+.add-score {
+  display: flex;
+  flex-direction: column;
+  width: 40vw;
+  gap: 1rem;
+  padding: 0.8rem 2rem;
+  position: relative;
+}
+
+.add-score h3 {
+  font-size: 2rem;
+}
+
+input {
+  border: 0.3rem solid black;
+  padding: 0.5rem 1rem;
+}
+
+.submit {
+  width: 5rem;
+  border: 0.3rem solid black;
+  box-shadow: 3px 2px 1px black;
+  padding: 0.8rem 1rem;
+  position: absolute;
+  bottom: 4rem;
+  right: 0.1rem;
+}
