@@ -110,7 +110,7 @@ npm run dev # to open the project in your browser
 
 ## Future Features
 
-- [ ] **[Will be adding Add Button and Remove Button]**
+- [ ] **[Will be integrating Api(application programming interface)]**
 
 ---
 
